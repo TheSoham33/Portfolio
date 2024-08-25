@@ -11,7 +11,7 @@ function Home(){
             <Nav />
             <h1>Welcome to my Website</h1>
             <div className="para">            
-                Hello! I am Soham Dey. I am a first year student pursunig Master's in Computer Application (MCA) from Future Institute of Engineering and Management. I am a passionate front end developer and currently  I have learned React js and using my knowledge I am creating this portfolio Website.<br /> <br />
+                Hello! I am Soham Dey. I am a first year student pursunig Master's in Computer Application (MCA) from TECHNO MAIN SALT LAKE. I am a passionate front end developer and currently  I have learned React js and using my knowledge I am creating this portfolio Website.<br /> <br />
             
                 I am a self-taught developer with a high dream of success in software developement. I hope you will like my website.
                 
