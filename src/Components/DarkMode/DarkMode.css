@@ -1,0 +1,17 @@
+.dark {
+    background-color: #333;
+    color: #fff;
+    --foot-clr: white;
+    --skillHead-clr: rgb(131, 131, 252);
+    --cnt-clr: white;
+}
+
+.light {
+    background-color: #fff;
+    color: #333;
+    --foot-clr: gray;
+    --skillHead-clr: black;
+    --cnt-clr: gray;
+}
+
+  
