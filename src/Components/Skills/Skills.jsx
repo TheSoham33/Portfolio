@@ -62,23 +62,27 @@ function Skills() {
             <div className="head">
                 <h1>My Skills </h1>
             </div>
-            <div className="subhead">
-                <h2>Front-End</h2>
-            </div>
-            {SkillInfront.map(CreateInfo)}   
+
+            <h2 className="otherssubhead">Front-End</h2>
+            <div className="front-box">
+            {SkillInfront.map(CreateInfo)} 
+            </div>  
             <div className="subhead">
             </div>       
             <div className="others">
-                <div className="othersbox">
+                
                 <h2 className="otherssubhead">Back-End</h2>
+                <div className="othersbox">
                     {SkillBack.map(CreateBackInfo)}
                 </div>
-                <div className="othersbox">
+                
                 <h2 className="otherssubhead">UI-UX Design</h2>
+                <div className="othersbox">
                     {SkillUiUx.map(CreateUIUx)}
                 </div>
-                <div className="othersbox">
+                
                 <h2 className="otherssubhead">Computer Subjects/Languages</h2>
+                <div className="othersbox">
                     {SkillSub.map(CreateSub)}
                 </div>
             </div>  

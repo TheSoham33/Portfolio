@@ -48,26 +48,31 @@
     padding-left: 6vw;
 }
 
-.others {
-    display: flex;
-}
-
-.othersbox {
-    width: 33.33%;
-}
 
 .otherssubhead {
+    font-weight: bolder;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
-@media screen and (max-width : 650px) {
+@media screen and (max-width: 650px) {
+    .front-box{
+        margin-right: 40px;
+    }
     .others {
         display: flex;
         flex-direction: column;
+        align-items: center; /* Center child elements horizontally */
     }
 
     .othersbox {
         width: 98vw;
+        margin-right: 40px; /* Center boxes horizontally with some margin */
+        text-align: center; /* Center content inside the boxes */
+    }
+
+    .otherssubhead {
+        text-align: center;
+        align-items: center;
     }
 }
