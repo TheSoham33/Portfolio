@@ -124,10 +124,11 @@ header .display-menu {
 /* mobile menu */
 
 .mobMenu {
-    position: absolute;
-    right: 30%;
-    display: none;
+    display: none; /* Hidden by default */
     height: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 50px; /* Aligns the menu icon to the right */
 }
 
 
@@ -177,7 +178,8 @@ header .display-menu {
 
     .mobMenu {
         display: flex;
-        margin-right: -10px;
+
+        padding: 10px; /* Optional: Add some padding */
         
     }
 
