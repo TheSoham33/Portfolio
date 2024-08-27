@@ -22,7 +22,7 @@ const SkillSub = [
         id : 4,
         name : "CYBER SECURITY",
         img : "https://cdn-icons-png.flaticon.com/512/2092/2092663.png",
-        progress : "80" 
+        progress : "60" 
     },
     {
         id : 5,

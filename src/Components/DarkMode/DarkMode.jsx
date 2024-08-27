@@ -17,7 +17,7 @@ function DarkMode() {
   }, [theme]);
   return (
     <div>
-      <button className="modeBtn" onClick={ toggleTheme }>Change Theme</button>
+      <button className="modeBtn" onClick={ toggleTheme }>Mode</button>
     </div>
   );
 }

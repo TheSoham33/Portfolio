@@ -56,9 +56,6 @@
 }
 
 @media screen and (max-width: 650px) {
-    .front-box{
-        margin-right: 40px;
-    }
     .others {
         display: flex;
         flex-direction: column;
@@ -68,7 +65,7 @@
     .othersbox {
         width: 98vw;
         margin-right: 40px; /* Center boxes horizontally with some margin */
-        text-align: center; /* Center content inside the boxes */
+        text-align: left; /* Center content inside the boxes */
     }
 
     .otherssubhead {
